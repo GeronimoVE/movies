@@ -6,7 +6,7 @@ const Movie = sequelize.define('movie', {
         type: DataTypes.STRING,
         allowNull: false
     },
-    Image: {
+    image: {
         type: DataTypes.TEXT,
         allowNull: false
     },
